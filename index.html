@@ -5,94 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Court-métrage : Noa (ou Looping)</title>
     <style>
+        /* Dégradé de fond */
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
             color: white;
             line-height: 1.6;
         }
+
+        /* Conteneur principal */
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #222;
+            background: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         }
+
+        /* Titres */
         h1, h2 {
             text-align: center;
             color: #4db8ff;
         }
+
         h2 {
             border-bottom: 2px solid #4db8ff;
             padding-bottom: 5px;
+            margin-top: 20px;
         }
-        p, ul {
+
+        /* Texte */
+        p {
             font-size: 18px;
-            padding: 10px;
         }
+
+        /* Listes */
         ul {
-            list-style-type: none;
+            list-style-type: square;
+            padding-left: 20px;
         }
-        ul li::before {
-            content: "\2022"; 
-            color: #ff4500; 
-            font-weight: bold;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
+
+        /* Partie originale */
+        .original {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
         }
-        .highlight {
-            color: #ffcc00;
-            font-weight: bold;
-        }
-        .footer {
+
+        /* Pied de page */
+        footer {
             text-align: center;
-            padding: 20px;
-            font-size: 16px;
-            color: #bbb;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>Court-métrage : Noa (ou Looping)</h1>
-        
-        <h2>Prédictions et Destinée</h2>
-        <p><span class="highlight">Des historiens</span> découvrent d’anciens textes prophétiques annonçant l’arrivée d’un être mystérieux. Il est destiné à provoquer un grand <span class="highlight">recommencement</span> pour l’humanité.</p>
-        
-        <h2>La Rencontre</h2>
-        <p>Un homme ordinaire, <span class="highlight">Benjamin</span>, trouve un individu étrange dans la nature : <span class="highlight">nu, avec une lance et des haillons rappelant la préhistoire</span>. Pris de compassion, il l’accueille chez lui.</p>
-        <ul>
-            <li>Vomissement après avoir mangé un burger</li>
-            <li>Souffrance en regardant la télévision</li>
-            <li>Fascination pour le monde moderne</li>
-        </ul>
-        
-        <h2>Les Révélations</h2>
-        <p>Les historiens découvrent que l’homme s’appelle <span class="highlight">Noa</span> (ou <span class="highlight">Looping</span>) et qu’il représente un cycle inévitable de renouveau.</p>
-        
-        <h2>Le Basculement</h2>
-        <p>Une nuit, Noa regarde les horreurs du monde moderne :</p>
-        <ul>
-            <li>Guerres</li>
-            <li>Exploitation</li>
-            <li>Cruauté envers les animaux</li>
-        </ul>
-        <p>Il peint son visage de bandes noires, récupère sa lance et quitte l’appartement. Il attire <span class="highlight">des sans-abris</span> qui le suivent, inspirés par son charisme silencieux.</p>
-        
-        <h2>Le Chaos et la Tragédie</h2>
-        <p>Benjamin tente de le retrouver. Mais lors d’une émeute, un des sans-abris <span class="highlight">poignarde sa compagne</span>. Benjamin est en larmes, Noa reste fidèle à sa mission.</p>
-        
-        <h2>Le Départ</h2>
-        <p>À l’aube, Noa quitte la ville avec ses partisans et des animaux libérés. En arrière-plan, <span class="highlight">des vaisseaux spatiaux</span> s’élèvent dans le ciel.</p>
-        
-        <h2>Conclusion</h2>
-        <p>Les historiens comprennent enfin la signification de leurs découvertes : <span class="highlight">ils sont témoins d’un événement qui changera l’histoire</span>.</p>
-        
-        <div class="footer">Fin.</div>
+
+        <h2>Idée de base</h2>
+        <div class="original">
+            <p>C'est l'histoire d'historiens qui étudient des textes anciens et découvrent la prophétie de l'arrivée d'un être du passé, annonçant un grand recommencement. Pendant ce temps, un homme nommé Benjamin trouve un individu étrange ressemblant à un Homo sapiens.</p>
+            <p>Benjamin l'héberge et tente de l'intégrer au monde moderne, mais cet être mystérieux réagit violemment à la nourriture, la télévision et la société. Pendant ce temps, les historiens approfondissent leurs recherches et découvrent que l'homme s'appelle Noa (ou Looping), un symbole de renouveau.</p>
+        </div>
+
+        <h2>La rencontre</h2>
+        <p>Benjamin croise un homme nu portant une lance et vêtu de haillons préhistoriques. Pris de compassion, il décide de l’héberger et de lui offrir un aperçu du monde moderne.</p>
+
+        <h2>Les révélations des historiens</h2>
+        <p>Les historiens découvrent son identité : <strong>Noa</strong>, un être lié à un cycle de recommencement. Son apparition semble marquer un changement majeur à venir.</p>
+
+        <h2>Le basculement</h2>
+        <p>Une nuit, Noa, horrifié par les images de la télévision (guerres, exploitation, élevages industriels), se peint le visage de bandes noires et quitte l'appartement. Il rencontre des sans-abris et devient un leader silencieux, incitant à une révolte contre l'oppression.</p>
+
+        <h2>L’émeute et la tragédie</h2>
+        <p>Dans le chaos, la compagne de Benjamin est poignardée. Bouleversé, il assiste impuissant à la transformation de Noa en une figure révolutionnaire.</p>
+
+        <h2>Le départ vers l’inconnu</h2>
+        <p>Au lever du jour, Noa quitte la ville avec ses partisans et des animaux qu’il a libérés, s’enfonçant dans la forêt. Au loin, des vaisseaux spatiaux s’élèvent dans le ciel, marquant un tournant mystérieux.</p>
+
+        <h2>L’émerveillement final</h2>
+        <p>Les historiens, témoins de cet événement, comprennent enfin la signification de leur découverte. Ils assistent, fascinés, à un moment qui bouleversera l’histoire de l’humanité.</p>
+
+        <footer>© 2025 - Une idée originale de Guillaume LOTIS</footer>
     </div>
+
 </body>
 </html>
