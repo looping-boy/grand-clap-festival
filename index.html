@@ -5,98 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Court-métrage : Noa (ou Looping)</title>
     <style>
-        /* Dégradé de fond */
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            background-color: #1a1a1a;
             color: white;
             line-height: 1.6;
         }
-
-        /* Conteneur principal */
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 50px auto;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
+            background-color: #222;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
         }
-
-        /* Titres */
+        .image {
+            max-width: 100%;
+        }
         h1, h2 {
             text-align: center;
             color: #4db8ff;
         }
-
         h2 {
             border-bottom: 2px solid #4db8ff;
             padding-bottom: 5px;
-            margin-top: 20px;
         }
-
-        /* Texte */
-        p {
+        p, ul {
             font-size: 18px;
-        }
-
-        /* Listes */
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-
-        /* Partie originale */
-        .original {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-
-        /* Pied de page */
-        footer {
-            text-align: center;
             padding: 10px;
-            margin-top: 20px;
-            font-size: 14px;
-            color: #ccc;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li::before {
+            content: "\2022"; 
+            color: #ff4500; 
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .highlight {
+            color: #0091ff;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+            color: #bbb;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
         <h1>Court-métrage : Noa (ou Looping)</h1>
+        
+        <h2>Idée juste reformulée par ChatGPT pour que ça soit plus lisible + Remodifiée</h2>
+        
+        <p>
+            Des historiens, spécialisés dans l’étude des textes anciens, mettent au jour des <span class="highlight">écrits prophétiques</span>
+            annonçant l’arrivée d’un être venu d’un autre temps. Selon ces textes, cet être marquera un <span class="highlight">tournant décisif</span>
+            pour l’humanité, un recommencement dont la nature exacte reste mystérieuse.<br><br>
+            <img src="historian.webp" class="image" alt="man">
 
-        <h2>Idée de base</h2>
-        <div class="original">
-            <p>C'est l'histoire d'historiens qui étudient des textes anciens et découvrent la prophétie de l'arrivée d'un être du passé, annonçant un grand recommencement. Pendant ce temps, un homme nommé Benjamin trouve un individu étrange ressemblant à un Homo sapiens.</p>
-            <p>Benjamin l'héberge et tente de l'intégrer au monde moderne, mais cet être mystérieux réagit violemment à la nourriture, la télévision et la société. Pendant ce temps, les historiens approfondissent leurs recherches et découvrent que l'homme s'appelle Noa (ou Looping), un symbole de renouveau.</p>
-        </div>
+            En parallèle, <span class="highlight">Benjamin</span>, un homme ordinaire, découvre un individu étrange alors qu’il se promène dans la
+            nature : un <span class="highlight">homme sapé à l'ancienne, à l’apparence primitive</span>, portant une lance et vêtu de haillons rappelant l’ère
+            préhistorique. Intrigué et pris de compassion, Benjamin décide de lui venir en aide. Il l’héberge, le
+            nourrit et tente de l’intégrer à la société moderne. Mais cet être, silencieux et fasciné par tout ce qui
+            l’entoure, réagit mal à ce monde : il <span class="highlight">vomit en mangeant un burger</span>, souffre en regardant la télévision et
+            peine à comprendre l’univers qui l’entoure. Pourtant, il suscite une forme de fascination, notamment auprès
+            d’une <span class="highlight">caissière sensible et délicate</span>. Benjamin explique à sa compagne qu'il veut s'occuper de l'homme
+            étrange et qu'il reviendra vers elle prochainement.<br><br>
+            <img src="man.JPG" class="image" alt="man">
 
-        <h2>La rencontre</h2>
-        <p>Benjamin croise un homme nu portant une lance et vêtu de haillons préhistoriques. Pris de compassion, il décide de l’héberger et de lui offrir un aperçu du monde moderne.</p>
+            Pendant ce temps, les historiens approfondissent leurs recherches et découvrent de nouveaux éléments.
+            L’homme mystérieux porte un nom : <span class="highlight">Noa (ou Looping)</span>, un symbole du cycle de recommencement mentionné dans les
+            textes. Sa présence semble liée à un <span class="highlight">changement inévitable</span> qui approche.<br><br>
+            <img src="oldtext.webp" class="image" alt="man">
 
-        <h2>Les révélations des historiens</h2>
-        <p>Les historiens découvrent son identité : <strong>Noa</strong>, un être lié à un cycle de recommencement. Son apparition semble marquer un changement majeur à venir.</p>
+            Une nuit, alors que Benjamin dort, Noa contemple la télévision et les <span class="highlight">horreurs du monde moderne</span> : guerres,
+            exploitation, cruauté envers les animaux. Cette révélation déclenche en lui un instinct profond. Il se peint
+            le visage de <span class="highlight">bandes noires</span>, récupère sa lance que Benjamin lui avait confisquée et quitte l’appartement en
+            pleine nuit. Errant dans les rues, il rencontre des sans-abris qui, subjugués par son <span class="highlight">charisme muet</span> et sa
+            présence magnétique, le suivent sans poser de questions. Peu à peu, il devient un <span class="highlight">leader silencieux</span>, un
+            symbole de révolte. Son groupe grossit et se radicalise, attaquant notamment des <span class="highlight">abattoirs et des élevages
+            industriels</span>.<br><br>
+            <img src="cnews.webp" class="image" alt="man">
 
-        <h2>Le basculement</h2>
-        <p>Une nuit, Noa, horrifié par les images de la télévision (guerres, exploitation, élevages industriels), se peint le visage de bandes noires et quitte l'appartement. Il rencontre des sans-abris et devient un leader silencieux, incitant à une révolte contre l'oppression.</p>
+            Benjamin, découvrant son départ, tente de le retrouver. Lorsqu’il y parvient, Noa est déjà à la tête d’une
+            <span class="highlight">foule en furie</span>. Dans l’excitation et le chaos, un des sans-abris poignarde <span class="highlight">la compagne de Benjamin</span>. Ce
+            dernier, effondré, se retrouve impuissant face au déchaînement des événements. Noa, bien que touché par
+            cette tragédie, poursuit néanmoins sa mission.<br><br>
+            <img src="protest.webp" class="image" alt="man">
 
-        <h2>L’émeute et la tragédie</h2>
-        <p>Dans le chaos, la compagne de Benjamin est poignardée. Bouleversé, il assiste impuissant à la transformation de Noa en une figure révolutionnaire.</p>
+            À l’aube, il quitte la ville, suivi par ses partisans et par des <span class="highlight">animaux qu’il semble avoir libérés</span>. Il
+            s’enfonce dans la forêt, donnant l’impression d’un <span class="highlight">retour aux origines</span>. Alors qu’il disparaît à l’horizon,
+            <span class="highlight">des vaisseaux spatiaux</span> s’élèvent dans le ciel, comme un signal énigmatique du changement annoncé.
+            Les historiens, arrivant au cœur de cette scène finale, observent l’instant avec émerveillement. Ils
+            comprennent enfin la signification de leurs découvertes et réalisent qu’ils sont témoins d’un événement qui
+            <span class="highlight">bouleversera l’histoire de l’humanité</span>.<br><br>
+        
+            <img src="spaceship.jpg" class="image" alt="man">
 
-        <h2>Le départ vers l’inconnu</h2>
-        <p>Au lever du jour, Noa quitte la ville avec ses partisans et des animaux qu’il a libérés, s’enfonçant dans la forêt. Au loin, des vaisseaux spatiaux s’élèvent dans le ciel, marquant un tournant mystérieux.</p>
+            <h1>FIN</h1>
+            <!-- <span class="highlight">FIN</span> -->
+        </p>
 
-        <h2>L’émerveillement final</h2>
-        <p>Les historiens, témoins de cet événement, comprennent enfin la signification de leur découverte. Ils assistent, fascinés, à un moment qui bouleversera l’histoire de l’humanité.</p>
+        <h2>Idée de base formulée par moi</h2>
 
-        <footer>© 2025 - Une idée originale de Guillaume LOTIS</footer>
+        <p>
+C'est l'histoire d'historiens qui prévoient et élucident des textes anciens et qui trouvent que un être venu d'ailleurs (du passé) va instaurer un recommencement qui aura sûrement bientot lieu.
+En parralèle, un homme Benjamin, se balade et trouve cet homme nue à l'aspect homo sapiens avec une lance et de vieux vetements qui dattent de l'air avant les civilisations. 
+Benjamin va a la rencontre de cet homme étrange et décide de le nourrir et de l'héberger, l'homme étrange ne prononce pas un seul mot mais est très stupéfait par sa voiture et la technologie et ce qu'est le monde. Benjamin lui donne des habits du monde moderne, il mange des burgeurs (vomit), regarde la télé (mal au crane), rencontre une femme (histoire d'amour pour la femme sensible et délicate qui est caissière). (Parralèle avec les historiens du début qui découvrent encore plus de truc sur l'homme étrange, et découvrent qu'il s'appèle Noa, ou Looping, pour le recommencement)). Mais un jour, pendant la nuit, pendant que Benjamin dors dans la chambre, Benjamin voit à la télé les horreurs de ce monde et décide de se maquiller de bandes noires, reprendre sa lance qui lui avait été confisquée et il part dans la rue pour rencontrer des clochards qui vont venir manifester avec lui tel un leader (qui n'a même pas besoin de parler, mais qui a un charisme incroyable) et tout casser (les abatoires et les elevages en batterie). Pendant le temps de recrutement avec les clochards, en parralèle Benjamin se rend compte qu'il a quité l'appartement, il décide de partir à la rencontre de l'homme étrange. Il le rencontre enfin, mais lors de l'attroupement et l'effet de folie, un clochard a poignardé la copine de Benjamin, il est en larmes et l'homme étrange est triste pour Benjamin et sa copine mais il a une mission. L'homme étrange part de la ville, il fait jour c'est le matin, pour aller dans la foret avec les hommes clochards et d'autres personnes convaincues par son charisme. Il rentre avec des animaux et les gens en direction de la foret, et des vaisseaux spaciaux sont entrain de décoller. Et c'est la fin.
+        </p>
+
+        <!-- <div class="footer">Fin.</div> -->
     </div>
-
 </body>
 </html>
