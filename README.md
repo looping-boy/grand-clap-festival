@@ -1,21 +1,17 @@
-<span style="color: red">
 #------------------------------------
-# **Idée de base venue de moi que**
-# **j'ai demandé à ChatGPT de reformuler** 
-# **pour que ça soit plus lisible :**
+# **<span style="color:blue">Idée de base venue de moi que j'ai demandé à ChatGPT de reformuler pour que ça soit plus lisible :</span>**
 #------------------------------------
-</span>
+
 Mon idée de court métrage, peux-tu synthétiser.
 
 C'est l'histoire d'historiens qui prévoient et élucident des textes anciens et qui trouvent que un être venu d'ailleurs (du passé) va instaurer un recommencement qui aura sûrement bientot lieu.
 En parralèle, un homme Benjamin, se balade et trouve cet homme nue à l'aspect homo sapiens avec une lance et de vieux vetements qui dattent de l'air avant les civilisations. 
 Benjamin va a la rencontre de cet homme étrange et décide de le nourrir et de l'héberger, l'homme étrange ne prononce pas un seul mot mais est très stupéfait par sa voiture et la technologie et ce qu'est le monde. Benjamin lui donne des habits du monde moderne, il mange des burgeurs (vomit), regarde la télé (mal au crane), rencontre une femme (histoire d'amour pour la femme sensible et délicate qui est caissière). (Parralèle avec les historiens du début qui découvrent encore plus de truc sur l'homme étrange, et découvrent qu'il s'appèle Noa, ou Looping, pour le recommencement)). Mais un jour, pendant la nuit, pendant que Benjamin dors dans la chambre, Benjamin voit à la télé les horreurs de ce monde et décide de se maquiller de bandes noires, reprendre sa lance qui lui avait été confisquée et il part dans la rue pour rencontrer des clochards qui vont venir manifester avec lui tel un leader (qui n'a même pas besoin de parler, mais qui a un charisme incroyable) et tout casser (les abatoires et les elevages en batterie). Pendant le temps de recrutement avec les clochards, en parralèle Benjamin se rend compte qu'il a quité l'appartement, il décide de partir à la rencontre de l'homme étrange. Il le rencontre enfin, mais lors de l'attroupement et l'effet de folie, un clochard a poignardé la copine de Benjamin, il est en larmes et l'homme étrange est triste pour Benjamin et sa copine mais il a une mission. L'homme étrange part de la ville, il fait jour c'est le matin, pour aller dans la foret avec les hommes clochards et d'autres personnes convaincues par son charisme. Il rentre avec des animaux et les gens en direction de la foret, et des vaisseaux spaciaux sont entrain de décoller. Et c'est la fin.
 
-<span style="color: red">
 #------------------------------
-# **Reformulation de ChatGPT :**
+# **<span style="color:blue">Reformulation de ChatGPT :</span>**
 #------------------------------
-</span>
+
 # **Court-métrage : Noa (ou Looping)**  
 
 **Des historiens**, spécialisés dans l’étude des textes anciens, mettent au jour des écrits prophétiques annonçant l’arrivée d’un être venu d’un autre temps. Selon ces textes, cet être marquera un tournant décisif pour l’humanité, un recommencement dont la nature exacte reste mystérieuse.  
